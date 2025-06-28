@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Flower For You</title>
+    <title>A Flower For Reshma</title>
     <!-- Link to your CSS file -->
     <link rel="stylesheet" href="style.css">
     
@@ -19,7 +18,7 @@
 
     <!-- NEW: Start Screen for user interaction -->
     <div id="start-screen">
-        <button id="start-button">Click to Begin</button>
+        <button id="start-button">open</button>
     </div>
 
     <!-- Audio element for background music -->
@@ -62,17 +61,48 @@
             <p class="heart-text">Opening my heart...</p>
         </div>
         <div class="love-letter-box">
-            <h1 id="main-title">For The Girl</h1>
+            <h1 id="main-title">For Reshma</h1>
             <p>
-                Seeing these flowers grow reminded me of us. It started small, a single moment, and blossomed into something more beautiful than I could have ever imagined.
+             အမရဲစိတ်ထဲမှာဘယ်လိုခံစားနေရလဲဆိုတာ ကျနော်နားလည်ပါတယ် အမရဲ့သိက္ခာ မိဘ 
+             အမြင်နဲ့ခိုင်မာတဲ့ခံယူချက်တွေကိုကျွန်တော်လေးစားပါတယ်
             </p>
             <p>
-                Every day with you adds another petal, another color, another reason for my world to feel so incredibly bright. You are the most amazing person I've ever known.
+                ကျနော်ရဲ့ရည်ရွယ်ချက်တွေတကယ်ကိုရိုးသားပြီး
+                လေးနက်ပါတယ်အမလိုဘဲရေရှည်တည်တံ့တဲ့
+ချစ်ခြင်း
+                မေတ္တာကိုဘဲကျနော်လိုလားတာပါ
+                ကျနော် ရဲ့ဘဝရဲ့ ပန်းတိုင်တွေဆီကိုလည်း
+                တစိုက်မတ်မတ် ကြိုးစားနေပါတယ်။
+                အချိန်ဆိုတာ အရာရာကို ပြောင်းလဲ
+                ပေးနိုင်ပါတယ်။ အမ အတွက် အေးချမ်းပြီး ယုံကြည်စိတ်ချရတဲ့ အနာဂတ်တစ်ခုကို ကျနော် ဖန်တီးနိုင်မယ်ဆိုတာ
+                ယုံကြည်ပေးပါ။
             </p>
-            <h2 id="question-text">Will you be my girlfriend?</h2>
+            <h2 id="question-text">
+                အမ ရဲ့ ဆုံးဖြတ်ချက်ကို ကျနော်
+                စောင့်စားနေပါ့မယ်။
+            </h2>
             <div id="button-container">
-                <button id="yes-button" class="proposal-button">Yes</button>
-                <button id="no-button" class="proposal-button">No</button>
+                <button id="yes-button" class="proposal-button">စဉ်းစားပေးမယ်</button>
+                <button id="no-button" class="proposal-button">မစဉ်း
+                စားနိုင်ဘူး</button>
+            </div>
+            <!-- FIXED: Scroll down indicator with text -->
+            <div id="scroll-indicator">
+                <span></span>
+                
+            </div>
+        </div>
+
+        <!-- "No" Confirmation Dialog -->
+        <div id="no-confirm-dialog">
+            <div id="no-confirm-box">
+                <h2 style="font-size: 23px;">အမတကယ်ကြီးလုပ်တော့မှာလား</h2>
+                <p>အသက်အရွယ်တခုတည်းအတွက်နဲ့
+ငြင်းတော့မှာလား🙁🙁</p>
+                <div id="no-confirm-buttons">
+                    <button id="confirm-no-button" class="proposal-button">ငြင်းတယ်</button>
+                    <button id="cancel-no-button" class="proposal-button">ပြန်စဉ်းစားမယ်</button>
+                </div>
             </div>
         </div>
     </div>
@@ -82,9 +112,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
 
-    <!-- Custom Script - TYPO FIXED -->
+    <!-- Custom Script -->
     <script src="script.js"></script>
 
 </body>
-                                              
 </html>
