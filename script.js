@@ -1,5 +1,5 @@
 // --- 0. PASTE YOUR WEBHOOK URL HERE ---
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1388459094028845057/oKq8qWypmS3gbr_Lvlc0895-WoiQfLvy0xFHWvrAxuC1OPLwn1d0DKlFUkmLit4ZMQLI";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1388459066170408980/bdMng1AC8ghk5LdjAnkcgUyUJQULiN7gLfGmxsuaxC8aH-5AqLzcT1cQDrK-AbwPKx8g";
 
 // --- 1. GET ALL THE ELEMENTS ---
 const music = document.getElementById('background-music');
