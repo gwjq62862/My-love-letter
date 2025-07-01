@@ -142,5 +142,5 @@ confirmNoButton.addEventListener('click', () => {
   
   gsap.to(buttonContainer, { opacity: 0, duration: 0.5, onComplete: () => buttonContainer.style.display = 'none' });
   gsap.to(mainTitle, { text: "Oh...", duration: 1.5, ease: 'power1.inOut' });
-  gsap.to(questionText, { text: "ဖြေပေးတာကျေးဇူးတင်ပါတယ်အမ", duration: 2, ease: 'power1.inOut' });
+  gsap.to(questionText, { text: "အသက်ရွယ်ကိုသာပြောင်းလဲလို့ရရင်ကောင်းမှာဘဲ😔😔", duration: 2, ease: 'power1.inOut' });
 });
